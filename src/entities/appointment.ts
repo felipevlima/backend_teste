@@ -3,6 +3,7 @@ export interface AppointmentProps {
   startsAt: Date
   endsAt: Date
 }
+
 export class Appointment {
   private props: AppointmentProps
 
